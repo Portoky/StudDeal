@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3YCsca98pAc=",
+  "dgSpecHash": "LWXdZS5cl0o=",
   "success": true,
-  "projectFilePath": "D:\\Universitate\\MCC\\StudDeal_API_Beta\\StudDeal_API_Beta\\StudDeal_API_Beta.csproj",
+  "projectFilePath": "D:\\Universitate\\MCC\\StudDeal\\StudDeal_API_Beta\\StudDeal_API_Beta\\StudDeal_API_Beta.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marci\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",
     "C:\\Users\\Marci\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.1\\microsoft.entityframeworkcore.abstractions.9.0.1.nupkg.sha512",

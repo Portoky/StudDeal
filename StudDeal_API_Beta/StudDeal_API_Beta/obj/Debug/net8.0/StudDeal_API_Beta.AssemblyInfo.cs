@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudDeal_API_Beta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45895b3daaa3a006df59d699cc8c6b42e3cb9d2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudDeal_API_Beta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudDeal_API_Beta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

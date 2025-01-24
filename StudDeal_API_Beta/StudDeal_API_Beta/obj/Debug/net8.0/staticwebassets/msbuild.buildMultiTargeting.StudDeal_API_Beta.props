@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\StudDeal_API_Beta.props" />
+</Project>

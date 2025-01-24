@@ -1,0 +1,137 @@
+{
+  "x-generator": "NSwag v14.2.0.0 (NJsonSchema v11.1.0.0 (Newtonsoft.Json v13.0.0.0))",
+  "openapi": "3.0.0",
+  "info": {
+    "title": "My Title",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/restaurants": {
+      "get": {
+        "operationId": "GetRestaurants",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Restaurant"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/restaurant/{id}": {
+      "get": {
+        "operationId": "GetRestaurant",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "x-position": 1
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      },
+      "delete": {
+        "operationId": "DeleteRestaurant",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "x-position": 1
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/restaurant": {
+      "post": {
+        "operationId": "PostRestaurant",
+        "requestBody": {
+          "x-name": "restaurant",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Restaurant"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      },
+      "put": {
+        "operationId": "PutRestaurant",
+        "requestBody": {
+          "x-name": "restaurant",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Restaurant"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Restaurant": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

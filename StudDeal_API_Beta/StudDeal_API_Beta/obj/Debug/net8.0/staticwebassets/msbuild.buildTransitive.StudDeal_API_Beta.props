@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\StudDeal_API_Beta.props" />
+</Project>
